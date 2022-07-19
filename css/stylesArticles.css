@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 0em;
+	font-family: Georgia;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.1em;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	font-weight: normal;
+	font-family: Georgia;
+}
+
+h3 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 1em;
+	font-family: Georgia;
+}
+
+
+dd {
+	margin-bottom: 2em;
+}
+
+dt {
+	margin-bottom: 0.5em;
+}
+
+dt:first-of-type {
+	margin-top: 2em;
+}
+
+dd p.firstLine {
+	margin-bottom: 0em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+
+section {
+	margin: 3em 1em 2em 1.5em;
+}
+
+
+img.noCaption, img.books {
+	float: left;
+	width:20%;
+	border-radius: 20px;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	outline: 1px solid rgb(87, 83, 54);
+}
+img.books {
+	border-radius: 0;
+}
+
+figure {
+	float: left;
+	width: 20%;
+	border-radius: 20px;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	outline: 1px solid rgb(87, 83, 54);
+	background-color: white;
+}
+
+figure img {
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+figure figcaption {
+	text-align: center;
+	background-color: white;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+h2#bda {
+	clear: both;
+}

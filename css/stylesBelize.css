@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+
+
+figure, figcaption {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+
+figure {
+	margin-top: 1em;
+}
+
+
+#fig1,  #fig2,  #fig3,  #fig4,  #fig7,  #fig8,  #fig9,  #fig12,  #fig13,  #fig14,  #fig15,  #fig16,  #fig18,  #fig19,  #fig20,  #fig25,  #fig29,  #fig31,  #fig34,  #fig35,  #fig36,  #fig37 {
+	width: 35%
+}
+
+#fig5, #fig6, #fig10,  #fig11,  #fig17,  #fig21,  #fig22,  #fig23,  #fig24,  #fig26,  #fig27,  #fig28,  #fig30,  #fig32,  #fig33 {
+	width: 25%;
+}
+
+#fig9, #fig11, div.clear  {
+	clear: both;
+}
+
+#fig22,  div.clearLeft  {
+	clear: left;
+}
+
+#fig24, #fig26  {
+	clear: right;
+}
+
+header > h1 {
+	color: rgb(87, 83, 54);
+	text-shadow: rgb(161, 227, 152) 2px 2px 0;
+}
+
+figure.right {
+	float: right;
+	margin-left: 1em;
+}
+
+figure.left {
+	float: left;
+}
+
+
+
+aside {
+	outline: 1px solid black; 
+	clear: both;
+	background-color: white;
+	margin-bottom: 1.5em;
+}
+
+
+@media only screen and (max-width: 735px) {
+
+	#fig1,  #fig2,  #fig3,  #fig4,  #fig7,  #fig8,  #fig9,  #fig12,  #fig13,  #fig14,  #fig15,  #fig16,  #fig18,  #fig19,  #fig20,  #fig25,  #fig31,  #fig34,  #fig35,  #fig36,  #fig37 {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%
+	}
+
+	#fig5, #fig6, #fig10,  #fig11,  #fig17,  #fig21,  #fig22,  #fig23,  #fig24,  #fig26,  #fig27,  #fig28,  #fig29,  #fig30,  #fig32,  #fig33 {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+	
+}
+
+@media only screen and (min-width: 1600px) {
+	
+	#fig9, div#change {
+		clear: none;
+	}
+	
+	#fig25 {
+		clear: left;
+	}
+	
+	#fig30 {
+		float: right;
+		margin-left: 1em;
+	}
+}

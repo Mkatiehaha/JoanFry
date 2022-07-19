@@ -1,0 +1,143 @@
+@charset "utf-8";
+@font-face {
+	font-family: champagne;
+	src: url('cac_champagne.woff') format('woff'),
+		url('cac_champagne.ttf') format('ttf');
+}
+
+article, aside, figcaption, figure,
+footer, header, main, nav, section { 
+   display: block;
+}
+
+address, article, aside, blockquote, body, cite,
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, nav a, ol, p, section, span, ul,
+table, tr, td, th, col, colgroup {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+
+/* Set the default page element styles */
+
+ul, ol {
+   list-style: none;
+}
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+
+
+
+
+
+html {
+	background: url(../images/backgroundResize.jpg)
+}
+
+body {	
+	width: 70%;
+	background-color: rgb(240, 240, 255);
+	outline: 20px solid rgba(182, 207, 255, 0.5);
+	margin: 75px auto 50px auto;
+	border-radius: 20px;
+	font-family: Tahoma;
+}
+
+body header img{
+	margin-bottom: 3px;
+	padding-bottom: 0;
+	width: 100%;
+	height: 250px;
+}
+
+body header > h1 {
+	font-family: champagne, cursive;
+	font-size: 5em;
+	color: black;
+	text-shadow: rgb(182, 207, 255) 2px 2px 0px;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	outline:  1px solid rgb(83, 83, 54); 
+	background-color: rgb(182, 207, 255);
+	text-align: center;
+	font-size: 1.2em;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+nav > li {
+	float: left;
+}
+
+li {
+	display: block;
+	outline: 1px solid rgb(83, 83, 54);
+	font-size:1.2em;
+	line-height: 1.4em;
+	border-radius: 20%;
+	border-bottom: 1em;
+	background-color: rgb(182, 207, 255);
+}
+
+ul.submenu > li {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+
+li > a {
+	display: block;
+	text-align: center;
+}
+a:hover, a:active {
+	background-color: rgb(155,176,217);
+	border-radius: 20%;
+}
+
+ul.submenu {
+	display: none;
+}
+
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+	display: block;
+}
+
+ul.mainMenu > li {
+	float: left;
+	width: 20%;
+}
+
+ul.submenu {
+	position: absolute;
+	width: 25%;
+}
+
+a.book {
+	color: rgb(206, 73, 28);
+}
+
+a.book:hover {
+	background-color: transparent;
+	color: rgb(130, 180, 240);
+}
+	
+	
