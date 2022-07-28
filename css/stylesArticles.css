@@ -25,7 +25,7 @@ h3 {
 
 
 dd {
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 }
 
 dt {
@@ -83,8 +83,4 @@ figure figcaption {
 	background-color: white;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-}
-
-h2#bda {
-	clear: both;
 }
