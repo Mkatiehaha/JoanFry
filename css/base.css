@@ -47,7 +47,7 @@ a {
 
 
 html {
-	background: url(../images/backgroundResizeEdited2.jpg)
+	background: url(../images/backgroundCrop1.jpg)
 }
 
 body {	
@@ -141,5 +141,5 @@ a.book:hover {
 }
 
 p.center {
-	text-align:center;
+	text-align: center;
 }
